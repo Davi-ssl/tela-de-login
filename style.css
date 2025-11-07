@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background: linear-gradient(60deg,rgba(0, 0, 0, 1) 0%, rgba(31, 31, 31, 1) 46%, rgba(92, 92, 92, 1) 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.container {
+    transition: 0.5s;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.280);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    
+}
+
+img {
+    transition: 0.5s;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+    image-rendering: optimizeQuality;
+}
+
+h1 {
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.200);
+}
+
+p {
+    margin-top: 15px;
+    padding:0px 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.200);
+}
+
+.bar {
+    transition: 0.5s;
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.280);
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    color: rgb(255, 255, 255);
+    text-indent: 10px;
+    font-size: 15px;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.200);
+    
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.600);
+}
+
+
+.bar:focus {
+    outline: none;
+}
+
+.bar:hover {
+    transition: 0.3s;
+    box-shadow: inset 0px 0px 3px white;
+}
+
+
+
+.material-symbols-outlined {
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.200);
+}
+
+#entrar {
+    transition: 0.5s;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.280);
+    margin-top: 15px;
+    height: 35px;
+    min-width: 277px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.200);
+}
+
+#entrar:hover {
+    transition: 0.3s;
+    box-shadow: 0px 0px 3px inset white;
+    cursor: pointer;
+
+}
+
+#esqueceu {
+    background: none;
+    border: none;
+    margin-top: 5px;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.200);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#esqueceu:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.buttons {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.input-box {
+    position: relative;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.input-box input {
+    height: 100%;
+    text-indent: 40px;
+}
+
+.input-box .material-symbols-outlined{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    padding-left: 10px;
+}
+

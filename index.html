@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="container">
+        <div id="login">
+            <img src="https://images.pexels.com/photos/36487/above-adventure-aerial-air.jpg" alt="code-html-img">
+            <h1>Login</h1>
+            <p>Bem-vindo de volta! Faça seu login para continuar.</p>
+        </div>
+
+        <form action="#" method="post">
+                <div class="input-box">
+                    <span class="material-symbols-outlined">person</span>
+                    <input type="email" class="bar" id="iicon1" required placeholder="Digite seu email">
+                </div>
+                <div class="input-box">
+                    <span class="material-symbols-outlined">key</span>
+                    <input type="password" class="bar" id="iicon2" required placeholder="Digite sua senha" pattern= "^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%&*]).{4,}$" title="A senha deve conter pelo menos 1 letra maiúscula, 1 minúscula, 1 número, e 1 símbolo especial" minlength="8">
+                </div>
+                <div class="buttons">
+                <button id="entrar" type="submit">Entrar</button>
+                <button id="esqueceu" type="button">Esqueceu a senha?</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
